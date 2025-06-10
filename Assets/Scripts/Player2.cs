@@ -8,7 +8,7 @@ public class Player2 : MonoBehaviour
     public float moveX;
     public float maxForce = 14f;
     public float maxSpeed = 11f;
-    
+        
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Animator anim;
     [SerializeField] private SpriteRenderer sprite;

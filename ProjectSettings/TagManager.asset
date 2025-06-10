@@ -6,8 +6,7 @@ TagManager:
   tags:
   - Enemy
   - Ground
-  - Home
-  - Restart
+  - Coin
   layers:
   - Default
   - TransparentFX
@@ -50,4 +49,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 1216505531
+    locked: 0
+  - name: Coin
+    uniqueID: 3611272109
     locked: 0

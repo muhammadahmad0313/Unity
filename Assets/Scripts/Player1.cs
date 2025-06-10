@@ -3,6 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Net.Mime;
 using UnityEngine;
+using UnityEngine.UI;
+using Random = System.Random;
 
 public class Player1 : MonoBehaviour
 {
@@ -14,12 +16,18 @@ public class Player1 : MonoBehaviour
     [SerializeField] private Animator anim;
     [SerializeField] private SpriteRenderer sprite;
     [SerializeField] private Canvas canvas;
+    [SerializeField] private Canvas Scorecanvas;
+    [SerializeField] private Text scoreText;
     
     private string WALK_ANIMATION = "Walk";
     private string GROUNDED = "Ground";
     private string ENEMY = "Enemy";
     
     private bool isGrounded = true;
+
+    private int score;
+
+    [SerializeField] private GameObject coin;
     
     // Start is called before the first frame update
     void Start()
@@ -28,7 +36,12 @@ public class Player1 : MonoBehaviour
         anim = GetComponent<Animator>();
         sprite = GetComponent<SpriteRenderer>();
         canvas = GameObject.Find("Canvas").GetComponent<Canvas>();
-        
+        Scorecanvas = GameObject.Find("ScoreCanvas").GetComponent<Canvas>();
+        score = 0;
+        scoreText = Scorecanvas.transform.Find("Score").GetComponent<Text>();
+        coin = GameObject.FindWithTag("Coin");
+        UpdateScoreDisplay();
+        StartCoroutine(CoinMaker());
         
     }
     
@@ -53,6 +66,20 @@ public class Player1 : MonoBehaviour
         }
     }
 
+    IEnumerator CoinMaker()
+    {
+        GameObject originalCoin = coin;
+        while (true)
+        {
+            
+            yield return new WaitForSeconds(UnityEngine.Random.Range(1,3));
+            
+            GameObject newcoin = Instantiate(originalCoin);
+            newcoin.transform.position = new Vector3(UnityEngine.Random.Range(-65f, 250f), UnityEngine.Random.Range(-2f, 5f), 0f);
+        }
+        
+    }
+    
     public void Movement()
     {
         if (transform.position.x > -65f && transform.position.x < 230f)
@@ -96,6 +123,13 @@ public class Player1 : MonoBehaviour
             anim.SetBool(WALK_ANIMATION, false);
         }
     }
+    private void UpdateScoreDisplay()
+    {
+        if (scoreText != null)
+        {
+            scoreText.text = "Score: " + score.ToString();
+        }
+    }
 
     private void OnCollisionEnter2D(Collision2D other)
     {
@@ -116,6 +150,12 @@ public class Player1 : MonoBehaviour
         {
             canvas.sortingOrder = 2;
             Destroy(gameObject);
+        }
+        else if (other.CompareTag("Coin"))
+        {
+            score++;
+            UpdateScoreDisplay();
+            Destroy(other.gameObject);
         }
     }
     

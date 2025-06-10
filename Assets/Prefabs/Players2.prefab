@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 4445701298195378683}
   - component: {fileID: 2758858905082310019}
   - component: {fileID: 3578426441372963396}
-  - component: {fileID: 7069066805489604027}
   - component: {fileID: 6243648948329140413}
+  - component: {fileID: 523295194480312050}
   m_Layer: 0
   m_Name: Players2
   m_TagString: Player
@@ -136,24 +136,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &7069066805489604027
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8236043111225641298}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dabf00d6e846e579ea6b6d5c032cc1a2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveX: 0
-  maxForce: 14
-  maxSpeed: 11
-  rb: {fileID: 3578426441372963396}
-  anim: {fileID: 2758858905082310019}
-  sprite: {fileID: 4445701298195378683}
 --- !u!70 &6243648948329140413
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -189,3 +171,25 @@ CapsuleCollider2D:
   m_Offset: {x: -0.0035922527, y: 0.0053886175}
   m_Size: {x: 0.6865988, y: 1.7986364}
   m_Direction: 0
+--- !u!114 &523295194480312050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8236043111225641298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39ce84b81c113ac539718d4dd509a698, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveX: 0
+  maxForce: 14
+  maxSpeed: 11
+  rb: {fileID: 3578426441372963396}
+  anim: {fileID: 2758858905082310019}
+  sprite: {fileID: 4445701298195378683}
+  canvas: {fileID: 0}
+  Scorecanvas: {fileID: 0}
+  scoreText: {fileID: 0}
+  coin: {fileID: 5360799127035567108, guid: bbb8d365995b67ba6a1f4bfffb1ac9a3, type: 3}
