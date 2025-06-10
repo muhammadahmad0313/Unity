@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2679b2a3-83ca-4e26-a1bd-a2fc79f5cae5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/MainMenu.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainMenu.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scene.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase Assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase Assets/Monster Chase Assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase Assets/Monster Chase Assets/Fonts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase Assets/Monster Chase Assets/Fonts/FEASFBI_.TTF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase Assets/Monster Chase Assets/Fonts/FEASFBI_.TTF.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase Assets/Monster Chase Assets/Fonts/FEASFBRG.TTF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase Assets/Monster Chase Assets/Fonts/FEASFBRG.TTF.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase Assets/Monster Chase Assets/Fonts/font info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase Assets/Monster Chase Assets/Fonts/font info.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase Assets/Monster Chase Assets/Sprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase Assets/Monster Chase Assets/Sprites/Background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase Assets/Monster Chase Assets/Sprites/Background.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase Assets/Monster Chase Assets/Sprites/Enemies.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase Assets/Monster Chase Assets/Sprites/Enemies.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase Assets/Monster Chase Assets/Sprites/Ground.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase Assets/Monster Chase Assets/Sprites/Ground.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase Assets/Monster Chase Assets/Sprites/Home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase Assets/Monster Chase Assets/Sprites/Home.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase Assets/Monster Chase Assets/Sprites/Moon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase Assets/Monster Chase Assets/Sprites/Moon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase Assets/Monster Chase Assets/Sprites/Player Select.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase Assets/Monster Chase Assets/Sprites/Player Select.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase Assets/Monster Chase Assets/Sprites/Players.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase Assets/Monster Chase Assets/Sprites/Players.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase Assets/Monster Chase Assets/Sprites/Restart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase Assets/Monster Chase Assets/Sprites/Restart.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase Assets/__MACOSX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase Assets/__MACOSX/._Monster Chase Assets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase Assets/__MACOSX/Monster Chase Assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase Assets/__MACOSX/Monster Chase Assets/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase Assets/__MACOSX/Monster Chase Assets/._Fonts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase Assets/__MACOSX/Monster Chase Assets/Fonts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase Assets/__MACOSX/Monster Chase Assets/Fonts/._FEASFBI_.TTF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase Assets/__MACOSX/Monster Chase Assets/Fonts/._FEASFBRG.TTF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase Assets/__MACOSX/Monster Chase Assets/Fonts/._font info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase Assets/__MACOSX/Monster Chase Assets/Sprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase Assets/__MACOSX/Monster Chase Assets/Sprites/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase Assets/__MACOSX/Monster Chase Assets/Sprites/._Background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase Assets/__MACOSX/Monster Chase Assets/Sprites/._Enemies.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase Assets/__MACOSX/Monster Chase Assets/Sprites/._Ground.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase Assets/__MACOSX/Monster Chase Assets/Sprites/._Home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase Assets/__MACOSX/Monster Chase Assets/Sprites/._Moon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase Assets/__MACOSX/Monster Chase Assets/Sprites/._Player Select.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase Assets/__MACOSX/Monster Chase Assets/Sprites/._Players.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase Assets/__MACOSX/Monster Chase Assets/Sprites/._Restart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/.vsconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assembly-CSharp.csproj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Animations/Enemy Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Animations/Enemy Animations/Enemy 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Animations/Enemy Animations/Enemy 1/Enemy 1 Animation.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Animations/Enemy Animations/Enemy 1/Enemy 1 Animation.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Animations/Enemy Animations/Enemy 1/Enemy 1 Controller.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Animations/Enemy Animations/Enemy 1/Enemy 1 Controller.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Animations/Enemy Animations/Enemy 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Animations/Enemy Animations/Enemy 2/Enemy 2 Animation.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Animations/Enemy Animations/Enemy 2/Enemy 2 Animation.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Animations/Enemy Animations/Enemy 2/Enemy 2 Controller.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Animations/Enemy Animations/Enemy 2/Enemy 2 Controller.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Animations/Enemy Animations/Ghost.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Animations/Enemy Animations/Ghost/Ghost Animation.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Animations/Enemy Animations/Ghost/Ghost Animation.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Animations/Enemy Animations/Ghost/Ghost Controller.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Animations/Enemy Animations/Ghost/Ghost Controller.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Animations/Player Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Animations/Player Animations/Player 1 Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Animations/Player Animations/Player 1 Animations/Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Animations/Player Animations/Player 1 Animations/Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Animations/Player Animations/Player 1 Animations/Player 1 Controller.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Animations/Player Animations/Player 1 Animations/Player 1 Controller.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Animations/Player Animations/Player 1 Animations/Walk.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Animations/Player Animations/Player 1 Animations/Walk.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Animations/Player Animations/Player 2 Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Animations/Player Animations/Player 2 Animations/Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Animations/Player Animations/Player 2 Animations/Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Animations/Player Animations/Player 2 Animations/Player 2 Controller.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Animations/Player Animations/Player 2 Animations/Player 2 Controller.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Animations/Player Animations/Player 2 Animations/Walk.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Animations/Player Animations/Player 2 Animations/Walk.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Fonts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Fonts/FEASFBI_.TTF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Fonts/FEASFBI_.TTF.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Fonts/FEASFBRG.TTF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Fonts/FEASFBRG.TTF.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Fonts/font info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Fonts/font info.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Prefabs/Enemy 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Prefabs/Enemy 1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Prefabs/Enemy 2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Prefabs/Enemy 2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Prefabs/Game Manager.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Prefabs/Game Manager.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Prefabs/Ghost.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Prefabs/Ghost.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Prefabs/Player 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Prefabs/Player 1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Prefabs/Player 2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Prefabs/Player 2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Scenes/Gameplay.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Scenes/Gameplay.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Scenes/MainMenu.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Scenes/MainMenu.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Sprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Sprites/Background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Sprites/Background.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Sprites/Enemies.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Sprites/Enemies.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Sprites/Ground.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Sprites/Ground.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Sprites/Home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Sprites/Home.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Sprites/Moon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Sprites/Moon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Sprites/Player Select.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Sprites/Player Select.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Sprites/Players.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Sprites/Players.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Sprites/Restart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Assets/Sprites/Restart.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Logs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Monster Chase.sln.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Packages.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Packages/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Packages/manifest.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Packages/packages-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/Packages/packages-lock.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/ProjectSettings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/ProjectSettings/AudioManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/ProjectSettings/AudioManager.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/ProjectSettings/ClusterInputManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/ProjectSettings/ClusterInputManager.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/ProjectSettings/DynamicsManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/ProjectSettings/DynamicsManager.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/ProjectSettings/EditorBuildSettings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/ProjectSettings/EditorSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/ProjectSettings/EditorSettings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/ProjectSettings/GraphicsSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/ProjectSettings/GraphicsSettings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/ProjectSettings/InputManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/ProjectSettings/InputManager.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/ProjectSettings/NavMeshAreas.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/ProjectSettings/NavMeshAreas.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/ProjectSettings/NetworkManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/ProjectSettings/NetworkManager.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/ProjectSettings/PackageManagerSettings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/ProjectSettings/Physics2DSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/ProjectSettings/Physics2DSettings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/ProjectSettings/PresetManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/ProjectSettings/PresetManager.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/ProjectSettings/ProjectSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/ProjectSettings/ProjectSettings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/ProjectSettings/ProjectVersion.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/ProjectSettings/ProjectVersion.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/ProjectSettings/QualitySettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/ProjectSettings/QualitySettings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/ProjectSettings/SceneTemplateSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/ProjectSettings/SceneTemplateSettings.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/ProjectSettings/TagManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/ProjectSettings/TagManager.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/ProjectSettings/TimeManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/ProjectSettings/TimeManager.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/ProjectSettings/UnityConnectSettings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/ProjectSettings/VFXManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/ProjectSettings/VFXManager.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/ProjectSettings/VersionControlSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/ProjectSettings/VersionControlSettings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/ProjectSettings/XRSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/ProjectSettings/XRSettings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/UserSettings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/Monster Chase/obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/__MACOSX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/__MACOSX/Monster Chase.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/__MACOSX/Monster Chase/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/__MACOSX/Monster Chase/Assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/__MACOSX/Monster Chase/Assets/Fonts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/__MACOSX/Monster Chase/Assets/Fonts/._FEASFBI_.TTF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/__MACOSX/Monster Chase/Assets/Fonts/._FEASFBRG.TTF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/__MACOSX/Monster Chase/Assets/Fonts/._font info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/__MACOSX/Monster Chase/Assets/Sprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/__MACOSX/Monster Chase/Assets/Sprites/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/__MACOSX/Monster Chase/Assets/Sprites/._Background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/__MACOSX/Monster Chase/Assets/Sprites/._Enemies.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/__MACOSX/Monster Chase/Assets/Sprites/._Ground.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/__MACOSX/Monster Chase/Assets/Sprites/._Home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/__MACOSX/Monster Chase/Assets/Sprites/._Moon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/__MACOSX/Monster Chase/Assets/Sprites/._Player Select.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/__MACOSX/Monster Chase/Assets/Sprites/._Players.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Monster Chase/__MACOSX/Monster Chase/Assets/Sprites/._Restart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Unity Introduction Project Assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Unity Introduction Project Assets/Unity Introduction Project.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Unity Introduction Project Assets/__MACOSX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Unity Introduction Project Assets/__MACOSX/Unity Introduction Project.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Unity Introduction Project Assets/__MACOSX/Unity Introduction Project/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Unity Introduction Project Assets/__MACOSX/Unity Introduction Project/._Character 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Unity Tutorial.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Unity Tutorial/unitytut-birdbody.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Unity Tutorial/unitytut-birdbody.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Unity Tutorial/unitytut-birdwingdown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Unity Tutorial/unitytut-birdwingdown.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Unity Tutorial/unitytut-birdwingup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Unity Tutorial/unitytut-birdwingup.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Unity Tutorial/unitytut-cloud.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Unity Tutorial/unitytut-cloud.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Unity Tutorial/unitytut-pipe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/YoutubeMaterials/Unity Tutorial/unitytut-pipe.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Camera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Monster.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2yGINErTdiR3Oi7Fpp5kgrwDl27" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$USER_HOME$/Unity/Hub/Editor/2022.3.59f1/Editor/Unity" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath $PROJECT_DIR$ -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="PTY_MODE" value="Auto" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$USER_HOME$/Unity/Hub/Editor/2022.3.59f1/Editor/Unity" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath $PROJECT_DIR$ -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="PTY_MODE" value="Auto" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
+      </option>
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="useMixedMode" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
+      </option>
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="useMixedMode" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2679b2a3-83ca-4e26-a1bd-a2fc79f5cae5" name="Changes" comment="" />
+      <created>1749454446006</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1749454446006</updated>
+      <workItem from="1749454452355" duration="2118000" />
+      <workItem from="1749469029023" duration="15671000" />
+      <workItem from="1749535308724" duration="3991000" />
+      <workItem from="1749542555935" duration="2543000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityProjectDiscoverer">
+    <option name="hasUnityReference" value="true" />
+    <option name="unityProject" value="true" />
+    <option name="unityProjectFolder" value="true" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
