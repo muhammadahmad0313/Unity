@@ -6,7 +6,7 @@ using UnityEngine;
 public class MonsterCollector : MonoBehaviour
 {
     private string ENEMY = "Enemy";
-    private string GHOST_ENEMY = "GhostEnemy";
+    // private string GHOST_ENEMY = "GhostEnemy";
     // Start is called before the first frame update
     void Start()
     {

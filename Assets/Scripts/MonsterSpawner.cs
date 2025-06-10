@@ -35,7 +35,7 @@ public class MonsterSpawner : MonoBehaviour
         
             randomSide = Random.Range(0, 2);
             randomMonster = Random.Range(0, monsters.Length);
-            monster = Instantiate(monsters[randomMonster]);
+            monster = Instantiate(monsters[randomMonster]); 
           
             
             //left

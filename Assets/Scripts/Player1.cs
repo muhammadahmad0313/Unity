@@ -65,6 +65,7 @@ public class Player1 : MonoBehaviour
     private void FixedUpdate()
     {
         PlayerJump();
+        
     }
     
     public void PlayerJump()
