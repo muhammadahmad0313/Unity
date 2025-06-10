@@ -12,7 +12,7 @@ public class Player2 : MonoBehaviour
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Animator anim;
     [SerializeField] private SpriteRenderer sprite;
-    
+    [SerializeField] private Canvas canvas;
     private string WALK_ANIMATION = "Walk";
     private string GROUNDED = "Ground";
     private string ENEMY = "Enemy";
@@ -26,7 +26,7 @@ public class Player2 : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         sprite = GetComponent<SpriteRenderer>();
-
+        canvas = GameObject.Find("Canvas").GetComponent<Canvas>();
     }
 
     // Update is called once per frame
@@ -103,7 +103,7 @@ public class Player2 : MonoBehaviour
         }
         if(other.gameObject.CompareTag(ENEMY))
         {
-            
+               canvas.sortingOrder = 2;
                 Destroy(gameObject);
             
         }
@@ -112,6 +112,10 @@ public class Player2 : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.CompareTag(ENEMY)) Destroy(gameObject);
+        if (other.CompareTag(ENEMY))
+        {
+            canvas.sortingOrder = 2;
+            Destroy(gameObject);
+        }
     } 
 }

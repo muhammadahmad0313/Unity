@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Net.Mime;
 using UnityEngine;
 
 public class Player1 : MonoBehaviour
@@ -12,6 +13,7 @@ public class Player1 : MonoBehaviour
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Animator anim;
     [SerializeField] private SpriteRenderer sprite;
+    [SerializeField] private Canvas canvas;
     
     private string WALK_ANIMATION = "Walk";
     private string GROUNDED = "Ground";
@@ -25,6 +27,7 @@ public class Player1 : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         sprite = GetComponent<SpriteRenderer>();
+        canvas = GameObject.Find("Canvas").GetComponent<Canvas>();
         
         
     }
@@ -102,14 +105,18 @@ public class Player1 : MonoBehaviour
         }
         if(other.gameObject.CompareTag(ENEMY))
         {
-            
-               Destroy(gameObject);
-            
+            canvas.sortingOrder = 2;
+            Destroy(gameObject);
         }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.CompareTag(ENEMY)) Destroy(gameObject);
+        if (other.CompareTag(ENEMY))
+        {
+            canvas.sortingOrder = 2;
+            Destroy(gameObject);
+        }
     }
+    
 }
