@@ -157,6 +157,10 @@ MonoBehaviour:
   canvas: {fileID: 0}
   Scorecanvas: {fileID: 0}
   scoreText: {fileID: 0}
+  heartPrefab:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   coin: {fileID: 5360799127035567108, guid: bbb8d365995b67ba6a1f4bfffb1ac9a3, type: 3}
 --- !u!70 &1232854848066432832
 CapsuleCollider2D:

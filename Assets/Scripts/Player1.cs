@@ -11,6 +11,7 @@ public class Player1 : MonoBehaviour
     public float moveX;
     public float maxForce = 14f;
     public float maxSpeed = 11f;
+    private int lives;
     
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Animator anim;
@@ -18,6 +19,7 @@ public class Player1 : MonoBehaviour
     [SerializeField] private Canvas canvas;
     [SerializeField] private Canvas Scorecanvas;
     [SerializeField] private Text scoreText;
+    [SerializeField] private GameObject[] heartPrefab;
     
     private string WALK_ANIMATION = "Walk";
     private string GROUNDED = "Ground";
@@ -40,6 +42,14 @@ public class Player1 : MonoBehaviour
         score = 0;
         scoreText = Scorecanvas.transform.Find("Score").GetComponent<Text>();
         coin = GameObject.FindWithTag("Coin");
+        lives = 3;
+        // Initialize hearts
+        
+            heartPrefab[0]= GameObject.Find("ScoreCanvas/H1");
+            heartPrefab[1]= GameObject.Find("ScoreCanvas/H2");
+            heartPrefab[2]= GameObject.Find("ScoreCanvas/H3");
+        
+        
         UpdateScoreDisplay();
         StartCoroutine(CoinMaker());
         
@@ -131,6 +141,15 @@ public class Player1 : MonoBehaviour
         }
     }
 
+    private void updateHearts()
+    {
+        int i = 3 - lives;
+        while (i>0)
+        {
+            i--;
+            heartPrefab[heartPrefab.Length - 1 - i].SetActive(false);
+        }
+    }
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag(GROUNDED))
@@ -139,19 +158,26 @@ public class Player1 : MonoBehaviour
         }
         if(other.gameObject.CompareTag(ENEMY))
         {
-            canvas.sortingOrder = 2;
-            Destroy(gameObject);
+           if(lives-1 > 0) 
+           {
+               Destroy(other.gameObject);
+               lives--;
+               updateHearts();
+           }
+           else
+           {
+               canvas.sortingOrder = 2;
+               MonsterSpawner.isGameOver = true;
+               lives--;
+               updateHearts();
+               Destroy(gameObject);
+               }
         }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag(ENEMY))
-        {
-            canvas.sortingOrder = 2;
-            Destroy(gameObject);
-        }
-        else if (other.CompareTag("Coin"))
+        if (other.CompareTag("Coin"))
         {
             score++;
             UpdateScoreDisplay();

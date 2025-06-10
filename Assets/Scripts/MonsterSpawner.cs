@@ -12,9 +12,12 @@ public class MonsterSpawner : MonoBehaviour
     private int randomSide;
     private int randomMonster; //0,1,2
     
+    public static bool isGameOver;
+    
     // Start is called before the first frame update
     void Start()
     {
+        isGameOver = false;
         StartCoroutine(SpawnMonster());
     }
 
@@ -26,14 +29,15 @@ public class MonsterSpawner : MonoBehaviour
 
     IEnumerator SpawnMonster()
     {
-        while (true)
+        while (!isGameOver)
         {
             yield return new WaitForSeconds(Random.Range(1,5));
         
             randomSide = Random.Range(0, 2);
             randomMonster = Random.Range(0, monsters.Length);
             monster = Instantiate(monsters[randomMonster]);
-        
+          
+            
             //left
             if (randomSide == 0)
             {
