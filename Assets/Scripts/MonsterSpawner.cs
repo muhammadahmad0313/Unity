@@ -42,14 +42,14 @@ public class MonsterSpawner : MonoBehaviour
             if (randomSide == 0)
             {
                 monster.transform.position = left.position;
-                monster.GetComponent<Monster>().speed = Random.Range(1f, 10f);
+                monster.GetComponent<Monster>().speed = 2f;
             }
         
             //right
             else
             {
                 monster.transform.position = right.position;
-                monster.GetComponent<Monster>().speed = -Random.Range(1f, 10f);
+                monster.GetComponent<Monster>().speed = -2f;
                 monster.GetComponent<SpriteRenderer>().flipX = true;
                 // monster.transform.localScale = new Vector3(-1f, 1f, 1f);
             }

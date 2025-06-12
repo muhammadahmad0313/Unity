@@ -185,7 +185,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveX: 0
   maxForce: 14
-  maxSpeed: 11
+  maxSpeed: 6
   rb: {fileID: 3578426441372963396}
   anim: {fileID: 2758858905082310019}
   sprite: {fileID: 4445701298195378683}
@@ -196,4 +196,8 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  moveJoyStickCanvas: {fileID: 0}
+  leftButton: {fileID: 0}
+  rightButton: {fileID: 0}
+  upButton: {fileID: 0}
   coin: {fileID: 5360799127035567108, guid: bbb8d365995b67ba6a1f4bfffb1ac9a3, type: 3}

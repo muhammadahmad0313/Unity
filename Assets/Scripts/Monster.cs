@@ -5,7 +5,7 @@ using UnityEngine;
 public class Monster : MonoBehaviour
 {
     
-    [HideInInspector] public float speed;
+    public float speed = 1f;
     [SerializeField] private Rigidbody2D rb;
     // Start is called before the first frame update
     void Start()
